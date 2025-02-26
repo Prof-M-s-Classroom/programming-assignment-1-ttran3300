@@ -28,9 +28,9 @@ int main() {
     cout << "\nPrinting Route: \n";
     voyagerRoute.print();
 
-    voyagerRoute.removeWaypointAtIndex(2);
-    cout << "\nAfter Removing Venus: \n";
-    voyagerRoute.print();
+   // voyagerRoute.removeWaypointAtIndex(2);
+   // cout << "\nAfter Removing Venus: \n";
+   // voyagerRoute.print();
 
     return 0;
 }
