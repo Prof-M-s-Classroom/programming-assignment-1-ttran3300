@@ -28,9 +28,19 @@ int main() {
     cout << "\nPrinting Route: \n";
     voyagerRoute.print();
 
-   // voyagerRoute.removeWaypointAtIndex(2);
-   // cout << "\nAfter Removing Venus: \n";
-   // voyagerRoute.print();
+    cout << "\nTest: \n";
+    voyagerRoute.getHead();
+    voyagerRoute.getTail();
+    voyagerRoute.getLength();
+
+    Node<string>* node = voyagerRoute.getWaypoint(3);
+    if (node)
+        cout<<"Node at index 3: "<<node->data<<endl;
+
+    voyagerRoute.removeWaypointAtIndex(2);
+    cout << "\nAfter Removing Venus: \n";
+    voyagerRoute.print();
+    voyagerRoute.getLength();
 
     return 0;
 }
