@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.4 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/CS210PA1.dir/main.cpp.o CMakeFiles/CS210PA1.dir/SpaceRoute.cpp.o -o CS210PA1
